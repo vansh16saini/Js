@@ -14,5 +14,22 @@ console.log(booleanIsloggedIn)
 //"Something" -> true
 
 let Something = 33
-let string = string(Something)
-console.log(string)
+//let stringsomething = string(Something)
+//onsole.log(stringsomething)
+//******* Operations ************
+console.log(20+21)//Addition
+console.log(20-21)//Subtraction
+console.log(20*21)//Multiplication
+console.log(20**21)//Power
+console.log(20%21)//Remainder
+let value = 3
+let negvalue = -value
+console.log(negvalue)
+let str1 = "Hey,"
+let str2 = " How are you"
+let str3 = str1 + str2
+console.log(str3)
+
+let gamecounter = 100
+++gamecounter;
+console.log(gamecounter)
