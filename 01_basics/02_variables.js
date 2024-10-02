@@ -14,7 +14,7 @@ let isloggedIn = false
 //null
 //undefined -> the value is not assigned yet
 // symbol -> for unique
-
+// NaN not a number
 //NULL is a object WHILE undefined is undefined
 //object
 console.log(typeof age)
