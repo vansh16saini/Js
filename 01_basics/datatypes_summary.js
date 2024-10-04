@@ -6,6 +6,23 @@ const score = 10.34; // decimal number also are under numbers there is no float 
 
 /*7 types : String Number Boolean Null Undefined Symbol Bigint */
 
-// Non primitive/ Reference
+const id = Symbol('123')
+const anotherid = Symbol('123')
+// here it looks like they are some but they have different values
 
-// Arrays, Objects, functions
+// Non primitive/ Reference
+const heros = ["shaktiman", "naagraj", "doga"]
+
+let myobj =
+{
+    name: 'vansh',
+    age: 19
+}
+
+const myfuction = function()
+{
+    console.log("hello world");
+}
+// Arrays - function, Objects- function, functions- object function
+
+console.log(typeof(myfuction));
