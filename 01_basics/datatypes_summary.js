@@ -26,3 +26,19 @@ const myfuction = function()
 // Arrays - function, Objects- function, functions- object function
 
 console.log(typeof(myfuction));
+
+// Stack(primitive), Heap (Non-primitive)
+let my_id = "Sainixvansh"
+let another_id = my_id
+// here both are pointing to the same location in the memory
+another_id = "Bgmi id"
+let user0n3 ={
+    name: "vansh",
+    email: "rangom@gmail"
+}
+usertwo = user0n3
+// here both are pointing to the same location in the memory
+usertwo.email ="ran@gamil"
+console.log(usertwo.email)
+console.log(user0n3.email)
+//here the value is chnaged for both
