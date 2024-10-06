@@ -30,14 +30,14 @@ console.log(typeof(myfuction));
 // Stack(primitive), Heap (Non-primitive)
 let my_id = "Sainixvansh"
 let another_id = my_id
-// here both are pointing to the same location in the memory
+// here it is pointing to a copy of the memory
 another_id = "Bgmi id"
 let user0n3 ={
     name: "vansh",
     email: "rangom@gmail"
 }
-usertwo = user0n3
 // here both are pointing to the same location in the memory
+usertwo = user0n3
 usertwo.email ="ran@gamil"
 console.log(usertwo.email)
 console.log(user0n3.email)
