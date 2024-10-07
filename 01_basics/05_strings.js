@@ -18,3 +18,9 @@
 
  console.log(anothersti.trim());
 // it will remove extra spaces
+const url = "https://vansh.com/vansh%20saini"
+
+console.log(url.replace("%20", "-"));
+console.log(url.includes('vansh'))
+
+console.log(Gamename.split('-'));
