@@ -29,10 +29,10 @@ const obj2 = {
     4: "d",
 }
 //Spread  operator
-const obj3 ={...obj1,...obj2}
+// const obj3 ={...obj1,...obj2}
 // const obj3 = Object.assign({},obj1,obj2)
 // here {} an empty object act as an target and other as source 
-console.log(obj3);
+// console.log(obj3);
 const user =[
     {
         id: 1,
@@ -53,10 +53,34 @@ const user =[
 ]
 user [1].email
 
-console.log(tinderuser)
+// console.log(tinderuser)
 
-console.log(Object.keys(tinderuser))
-console.log(Object.values(tinderuser))
-console.log(Object.entries(tinderuser))//make arrays [key, value] format
+// console.log(Object.keys(tinderuser))
+// console.log(Object.values(tinderuser))
+// console.log(Object.entries(tinderuser))//make arrays [key, value] format
 
-console.log(tinderuser.hasOwnProperty('isloggedIN'));
+// console.log(tinderuser.hasOwnProperty('isloggedIN'));
+
+
+const course = {
+    name: "javascript",
+    cost: "999",
+    duration: "3 months"
+}
+
+// object destucture
+// course.duration  here we use {} to destructure the following object 
+// it is use to prevent the use of say course.cost and so again and again
+
+const {duration:due} = course
+console.log(due);
+
+//JSON - an object without a name is json we use it in back end for API call
+// {
+//     name: "javascript",
+//     cost: "999",
+//     duration: "3 months",
+// }
+
+// can also be in form of a array of objects
+// [{},{},...]
