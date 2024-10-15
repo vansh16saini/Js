@@ -45,3 +45,32 @@ console.log(loginUsermessage())
 // if empty then undefined just loggged in
 // if "" then just logged in
 // if "anything"
+
+function calculateCartPrice(val1,val2,...number1){ //rest and spread have same syntax
+    return number1
+}
+// if we use val1,val2 then first values will be stored in them then rest in number1
+console.log(calculateCartPrice(200, 400, 500))
+
+const user = {
+    username: "Vansh",
+    price:199
+}
+
+// function handleObject(anyobject){
+//     console.log(`Username is ${anobject.username} and price is ${anyobject.price}`)
+// }
+
+// handleObject(user)
+
+// handleObject({
+//     username: "Vansh",
+//     price:199
+// })
+
+const myNewarray = [200,400,100,600]
+
+function returnSecondValue(getarray){
+    return getarray[1]
+}
+ console.log(returnSecondValue(myNewarray))
