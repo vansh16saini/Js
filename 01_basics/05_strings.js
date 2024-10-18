@@ -9,7 +9,7 @@
 
  console.log(Gamename[0]);
  // the original value isn't changed
- console.log(Gamename.toUpperCase);
+ console.log(Gamename.toUpperCase());
  console.log(Gamename.charAt(3));
  const newstring = Gamename.substring(0,4)
  // can't have reverse values and will choose substring till 4 i.e 0 1 2 3 in this case "Let'"
