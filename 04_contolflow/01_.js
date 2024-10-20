@@ -33,5 +33,6 @@ else if (balance > 50)
     console.log("less than 50");
     
 else 
-    console.log("Nothing");
+    console.log(" Nothing");
     
+// don't write implic
