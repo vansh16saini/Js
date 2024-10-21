@@ -26,8 +26,7 @@ if(false){
 // } 
 
 const balance = 10000
-if (balance > 100)//this is implicit scope  
-    console.log("less than 100");
+if (balance > 100) console.log("less than 100"); // this is implict code
     // implicit scope is immature 
 else if (balance > 50)
     console.log("less than 50");
@@ -35,4 +34,23 @@ else if (balance > 50)
 else 
     console.log(" Nothing");
     
-// don't write implic
+// don't write implict code
+const userLoggedIn = true
+const debitCard = true
+
+if(userLoggedIn && debitCard && 2==3){
+    console.log("you are logged in and have debit card");
+}
+let loggedInFromGoogle = true
+let loggedInFromMail = false
+if(loggedInFromGoogle || loggedInFromMail)
+    console.log("you are logged in");
+// if you want to check if both are true then use && operator
+// switch (key) {
+//     case value:
+        
+//         break;
+
+//     default:
+//         break;
+// } 
