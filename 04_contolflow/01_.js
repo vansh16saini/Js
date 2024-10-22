@@ -54,3 +54,14 @@ if(loggedInFromGoogle || loggedInFromMail)
 //     default:
 //         break;
 // } 
+switch (month) {
+    case jan:
+        console.log("January")
+        break;
+
+    default:
+        console.log("Enter a month");
+        break;
+}
+
+ 
