@@ -64,4 +64,11 @@ switch (month) {
         break;
 }
 
- 
+ //falsy value 
+ // 0, "", null, undefined, NaN, false, 0n, -0,
+ //truthy value
+ // 1, "hello", true, Infinity, -Infinity, 42, "0",  
+
+ if(Object.keys(emptyObj).length==0) {
+    console.log("Object is empty");
+ }
