@@ -72,3 +72,15 @@ switch (month) {
  if(Object.keys(emptyObj).length==0) {
     console.log("Object is empty");
  }
+
+ let value
+ value = null ?? 10
+
+//  nullish coalescing operator (??): null undefined
+
+//Terniary operator
+
+// condition ? true:false
+
+const iceTeaPrice = 200
+iceTeaPrice >= 100 ? console.log("Costly"):console.log("Just fine");
