@@ -13,7 +13,7 @@ const coding = ['js','ruby','cpp','html','css','rr']
 
 // coding.forEach((item,index,arr)=>{
 //     console.log(item,index,arr)
-// })
+// }
 
 const mycoding =[
     {
