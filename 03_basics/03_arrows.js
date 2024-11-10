@@ -56,4 +56,3 @@ console.log(arrow_object());
 
 
 const myarray = [2,4,5,6,2,7,8]
-myarray.forEach()
